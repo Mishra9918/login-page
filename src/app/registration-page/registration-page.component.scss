@@ -1,0 +1,50 @@
+// -------------------------------
+.login-img {
+    background-image: url('../../../assets/img/Lasaki\ Login\ Page.png');
+    height: 600px;
+    width: 55%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 2rem;
+    padding-top: 7rem;
+    padding-left: 2rem;
+    border-radius: 1rem;
+}
+
+.form-control {
+    width: 50%;
+    margin-bottom: 1rem;
+    height: 7vh;
+    font-size: 1.2rem;
+    border: 1px solid var(--lightgreen);
+
+}
+
+.form-control::placeholder {
+    color: var(--lightgreen);
+}
+
+
+// #login-field{
+//     margin-top: 2rem;
+// }
+.login-btn {
+    border: none;
+    padding: .4rem 7.6rem .4rem 7.6rem;
+    background-color: var(--lightgreen);
+    color: var(--white);
+    font-size: 1.2rem;
+    border-radius: .2rem;
+}
+
+.Resend-OTP {
+    margin-left: 3.8rem;
+    color: var(--lightgreen);
+    margin-top: .5rem;
+}
+
+.heading {
+    margin-left: 3rem;
+    font-weight: bold;
+}
